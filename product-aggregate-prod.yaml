@@ -1,5 +1,11 @@
+spring:
+  application:
+    name: product-aggregate
+  main:
+    banner-mode: off
+
 server:
-  port: 8082
+  port: 8882
 
 eureka:
   client:

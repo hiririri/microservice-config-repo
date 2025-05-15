@@ -1,4 +1,6 @@
 spring:
+  application:
+    name: product-service
   main:
     banner-mode: off
   datasource:
@@ -18,7 +20,7 @@ spring:
         implicit-strategy: org.hibernate.boot.model.naming.ImplicitNamingStrategyLegacyJpaImpl
 
 server:
-  port: 8083
+  port: 8081
 
 eureka:
   client:
